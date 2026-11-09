@@ -1,0 +1,179 @@
+
+
+/* FUNDO ESCURO DO MODAL */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.25s ease;
+}
+
+/* JANELA DE DETALHES */
+
+.movie-details {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  max-height: 90vh;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  background: #1c1c1f;
+  border: 1px solid #38383f;
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  animation: modalAppear 0.3s ease;
+}
+
+/* BOTÃO FECHAR */
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  border: 1px solid #555;
+  border-radius: 50%;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s;
+}
+
+.close-button:hover {
+  background: #e50914;
+  border-color: #e50914;
+  transform: rotate(90deg);
+}
+
+/* IMAGEM DO FILME */
+
+.details-image {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  object-fit: cover;
+  background: #101014;
+}
+
+/* QUANDO NÃO EXISTE IMAGEM */
+
+.details-no-image {
+  display: grid;
+  place-items: center;
+  font-size: 65px;
+  color: #777;
+}
+
+/* CONTEÚDO */
+
+.details-content {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details-content h2 {
+  color: white;
+  font-size: 30px;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+/* GÉNERO E ANO */
+
+.details-info {
+  color: #ff555d;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* CLASSIFICAÇÃO */
+
+.details-rating {
+  color: #facc15;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* SINOPSE */
+
+.details-content h3 {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 12px;
+  border-left: 3px solid #e50914;
+  padding-left: 10px;
+}
+
+.details-synopsis {
+  color: #bbb;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* ANIMAÇÕES */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalAppear {
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 650px) {
+  .movie-details {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+
+  .details-image {
+    height: 250px;
+    min-height: 250px;
+    object-position: center 25%;
+  }
+
+  .details-content {
+    padding: 25px 22px;
+  }
+
+  .details-content h2 {
+    font-size: 23px;
+  }
+
+  .details-rating {
+    margin-bottom: 20px;
+  }
+}

@@ -77,6 +77,3 @@ O projeto pretende proporcionar uma experiência simples, intuitiva e interativa
 Projeto académico desenvolvido no âmbito da unidade curricular de desenvolvimento web.
 
 ## 📌 Estado do Projeto
-
-Em desenvolvimento.
-

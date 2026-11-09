@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎬 CineMatch
 
 **Catálogo interativo e plataforma de recomendação de filmes e séries.**
@@ -78,3 +79,7 @@ Projeto académico desenvolvido no âmbito da unidade curricular de desenvolvime
 ## 📌 Estado do Projeto
 
 Em desenvolvimento.
+=======
+
+
+>>>>>>> eb26d3fcc0b301d7d50679065ebd601f6465c6d4

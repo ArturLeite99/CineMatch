@@ -1,16 +1,80 @@
-# React + Vite
+# 🎬 CineMatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Catálogo interativo e plataforma de recomendação de filmes e séries.**
 
-Currently, two official plugins are available:
+## 📌 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O CineMatch é uma aplicação web desenvolvida com React e Vite, que permite aos utilizadores explorar um catálogo de filmes e séries, consultar informações detalhadas e adicionar novos títulos à lista comunitária.
 
-## React Compiler
+O projeto pretende proporcionar uma experiência simples, intuitiva e interativa para estudantes e amantes de cinema.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Objetivos
 
-## Expanding the ESLint configuration
+- Criar um catálogo interativo de filmes e séries.
+- Permitir a consulta de informações e sinopses.
+- Apresentar recomendações de conteúdos.
+- Permitir adicionar novos filmes ao catálogo.
+- Aplicar conceitos fundamentais de desenvolvimento com React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Git e GitHub
+
+## 🧩 Estrutura de Componentes
+
+| Componente | Descrição |
+|---|---|
+| `Header.jsx` | Cabeçalho e menu de navegação. |
+| `MovieCard.jsx` | Cartão individual de cada filme. |
+| `MovieDetails.jsx` | Apresentação dos detalhes e sinopse. |
+| `AddMovieForm.jsx` | Formulário para adicionar novos filmes. |
+| `App.jsx` | Componente principal da aplicação. |
+
+## ⚙️ Funcionalidades
+
+- Visualização de um catálogo de filmes e séries.
+- Apresentação de posters, títulos e géneros.
+- Consulta de sinopses e informações detalhadas.
+- Seleção de filmes através de interações.
+- Adição dinâmica de novos títulos ao catálogo.
+
+## 📚 Conceitos React Aplicados
+
+- Componentização.
+- Passagem de propriedades (`props`).
+- Gestão de estados com `useState`.
+- Renderização de listas com `map()`.
+- Identificação de elementos através de `key`.
+- Eventos `onClick`, `onChange` e `onSubmit`.
+- Renderização condicional.
+
+## 🚀 Como Executar o Projeto
+
+1. Clonar o repositório:
+
+   `git clone https://github.com/TEU_UTILIZADOR/CineMatch.git`
+
+2. Entrar na pasta:
+
+   `cd CineMatch`
+
+3. Instalar as dependências:
+
+   `npm install`
+
+4. Iniciar o servidor de desenvolvimento:
+
+   `npm run dev`
+
+## 👨‍💻 Autor
+
+Projeto académico desenvolvido no âmbito da unidade curricular de desenvolvimento web.
+
+## 📌 Estado do Projeto
+
+Em desenvolvimento.

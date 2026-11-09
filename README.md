@@ -57,7 +57,7 @@ O projeto pretende proporcionar uma experiência simples, intuitiva e interativa
 
 1. Clonar o repositório:
 
-   `git clone https://github.com/TEU_UTILIZADOR/CineMatch.git`
+   `git clone https://github.com/ArturLeite99/CineMatch.git`
 
 2. Entrar na pasta:
 

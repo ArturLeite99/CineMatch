@@ -82,3 +82,5 @@ a59741 Diana Machado
 a61150 Cláudia Silva
 
 ## 📌 Estado do Projeto
+
+Em desenvolvimento.

@@ -72,8 +72,13 @@ O projeto pretende proporcionar uma experiência simples, intuitiva e interativa
 
    `npm run dev`
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
 Projeto académico desenvolvido no âmbito da unidade curricular de desenvolvimento web.
+
+a43149 Artur Leite
+a57698 Eidivania Domingos
+a59741 Diana Machado
+a61150 Cláudia Silva
 
 ## 📌 Estado do Projeto

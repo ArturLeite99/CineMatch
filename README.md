@@ -74,7 +74,7 @@ O projeto pretende proporcionar uma experiência simples, intuitiva e interativa
 
 ## 👨‍💻 Autores
 
-Projeto académico desenvolvido no âmbito da unidade curricular de desenvolvimento web.
+Projeto académico desenvolvido no âmbito da unidade curricular de Desenvolvimento de Aplicações Multimédia.
 
 a43149 Artur Leite
 a57698 Eidivania Domingos
